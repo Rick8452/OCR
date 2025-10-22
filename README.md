@@ -29,3 +29,16 @@ Form fields:
 - usuarioID: "12345"
 - tipo_documento: "ine"
 - file: <archivo INE o PDF>
+
+### 2. Obtener los campos extraídos
+GET /ocr/components/ine/{archivoID}
+
+### 3. Validar la carpeta destino
+POST /ocr/validate-folder
+Body:
+{
+  "carpeta": "Escolar",
+  "archivoID": "ocr_20251022_120313_67145f",
+  "usuarioID": "user_demo_1",
+  "tipo_documento": "ine"
+}
