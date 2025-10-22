@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+watchfiles  #Borrar cuando se pase a producción
+numpy
+opencv-python-headless
+Pillow>=9.5,<12
+python-multipart
+dlib
+python-doctr
+pypdfium2
+rapidfuzz
+Unidecode
+PyMuPDF
+boto3
